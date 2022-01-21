@@ -1,4 +1,4 @@
 import io from "socket.io-client";
-const baseURL = "http://localhost:3001";
+const baseURL = "https://socket-back-brayan.herokuapp.com/";
 
 export const socket = io.connect(baseURL);
