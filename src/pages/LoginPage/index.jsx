@@ -19,13 +19,6 @@ export const LoginPage = ({ handleValues, joinRoom }) => {
                     handleValues("room", event.target.value);
                 }}
             />
-
-            <select>
-                <option value="hide">-- Sala --</option>
-                <option value="sala 1">Sala 1</option>
-                <option value="sala 2">Sala 2</option>
-                <option value="sala 3">Sala 3</option>
-            </select>
             <button onClick={joinRoom}>Ingresar</button>
         </div>
     );
